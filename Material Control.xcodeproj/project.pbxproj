@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2240176357ECDEF191BC9BA4 /* libPods-Material Control.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3294DEB956D693AFF224B5BF /* libPods-Material Control.a */; };
 		AD4ED4E81E20E05600594B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED4E71E20E05600594B58 /* main.m */; };
 		AD4ED4EB1E20E05600594B58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED4EA1E20E05600594B58 /* AppDelegate.m */; };
 		AD4ED4EE1E20E05600594B58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED4ED1E20E05600594B58 /* ViewController.m */; };
-		AD4ED4F11E20E05600594B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4ED4EF1E20E05600594B58 /* Main.storyboard */; };
 		AD4ED4F31E20E05600594B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4ED4F21E20E05600594B58 /* Assets.xcassets */; };
 		AD4ED4F61E20E05600594B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4ED4F41E20E05600594B58 /* LaunchScreen.storyboard */; };
 		AD4ED5011E20E05600594B58 /* Material_ControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED5001E20E05600594B58 /* Material_ControlTests.m */; };
 		AD4ED50C1E20E05600594B58 /* Material_ControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED50B1E20E05600594B58 /* Material_ControlUITests.m */; };
+		ADF1C75D1E20EDD20078069A /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1C75C1E20EDD20078069A /* ContainerViewController.m */; };
+		ADF1C7601E20EE030078069A /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1C75F1E20EE030078069A /* EmptySegue.m */; };
+		ADF1C7631E20F2DA0078069A /* secViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1C7621E20F2DA0078069A /* secViewController.m */; };
+		ADF1C7661E20F3520078069A /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF1C7651E20F3520078069A /* thirdViewController.m */; };
+		ADF1C7681E20F3FD0078069A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF1C7671E20F3FD0078069A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3294DEB956D693AFF224B5BF /* libPods-Material Control.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Material Control.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5160909F1B4655281000E6 /* Pods-Material Control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Material Control.release.xcconfig"; path = "Pods/Target Support Files/Pods-Material Control/Pods-Material Control.release.xcconfig"; sourceTree = "<group>"; };
 		AD4ED4E31E20E05600594B58 /* Material Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Material Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4ED4E71E20E05600594B58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD4ED4E91E20E05600594B58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD4ED4EA1E20E05600594B58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AD4ED4EC1E20E05600594B58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AD4ED4ED1E20E05600594B58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD4ED4F01E20E05600594B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD4ED4F21E20E05600594B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD4ED4F51E20E05600594B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD4ED4F71E20E05600594B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		AD4ED5071E20E05600594B58 /* Material ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Material ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4ED50B1E20E05600594B58 /* Material_ControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Material_ControlUITests.m; sourceTree = "<group>"; };
 		AD4ED50D1E20E05600594B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF1C75B1E20EDD20078069A /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		ADF1C75C1E20EDD20078069A /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		ADF1C75E1E20EE030078069A /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptySegue.h; sourceTree = "<group>"; };
+		ADF1C75F1E20EE030078069A /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySegue.m; sourceTree = "<group>"; };
+		ADF1C7611E20F2DA0078069A /* secViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secViewController.h; sourceTree = "<group>"; };
+		ADF1C7621E20F2DA0078069A /* secViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secViewController.m; sourceTree = "<group>"; };
+		ADF1C7641E20F3520078069A /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdViewController.h; sourceTree = "<group>"; };
+		ADF1C7651E20F3520078069A /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdViewController.m; sourceTree = "<group>"; };
+		ADF1C7671E20F3FD0078069A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DA08F7413002426582E601CA /* Pods-Material Control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Material Control.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Material Control/Pods-Material Control.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2240176357ECDEF191BC9BA4 /* libPods-Material Control.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		527848F5C24D0DE32A74DF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3294DEB956D693AFF224B5BF /* libPods-Material Control.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62C4980F47A31D04CC96FEBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA08F7413002426582E601CA /* Pods-Material Control.debug.xcconfig */,
+				9A5160909F1B4655281000E6 /* Pods-Material Control.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD4ED4DA1E20E05600594B58 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				AD4ED4FF1E20E05600594B58 /* Material ControlTests */,
 				AD4ED50A1E20E05600594B58 /* Material ControlUITests */,
 				AD4ED4E41E20E05600594B58 /* Products */,
+				62C4980F47A31D04CC96FEBE /* Pods */,
+				527848F5C24D0DE32A74DF9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +137,19 @@
 		AD4ED4E51E20E05600594B58 /* Material Control */ = {
 			isa = PBXGroup;
 			children = (
+				ADF1C75B1E20EDD20078069A /* ContainerViewController.h */,
+				ADF1C75C1E20EDD20078069A /* ContainerViewController.m */,
+				ADF1C7671E20F3FD0078069A /* Main.storyboard */,
+				ADF1C75E1E20EE030078069A /* EmptySegue.h */,
+				ADF1C75F1E20EE030078069A /* EmptySegue.m */,
 				AD4ED4E91E20E05600594B58 /* AppDelegate.h */,
 				AD4ED4EA1E20E05600594B58 /* AppDelegate.m */,
 				AD4ED4EC1E20E05600594B58 /* ViewController.h */,
 				AD4ED4ED1E20E05600594B58 /* ViewController.m */,
-				AD4ED4EF1E20E05600594B58 /* Main.storyboard */,
+				ADF1C7641E20F3520078069A /* thirdViewController.h */,
+				ADF1C7651E20F3520078069A /* thirdViewController.m */,
+				ADF1C7611E20F2DA0078069A /* secViewController.h */,
+				ADF1C7621E20F2DA0078069A /* secViewController.m */,
 				AD4ED4F21E20E05600594B58 /* Assets.xcassets */,
 				AD4ED4F41E20E05600594B58 /* LaunchScreen.storyboard */,
 				AD4ED4F71E20E05600594B58 /* Info.plist */,
@@ -147,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4ED5101E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material Control" */;
 			buildPhases = (
+				E0CB0B942EFBCE47F9E897DC /* [CP] Check Pods Manifest.lock */,
 				AD4ED4DF1E20E05600594B58 /* Sources */,
 				AD4ED4E01E20E05600594B58 /* Frameworks */,
 				AD4ED4E11E20E05600594B58 /* Resources */,
+				E120AC7E3D9B1AF4A155E7CD /* [CP] Embed Pods Frameworks */,
+				8290189D2F0327491C77F059 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF1C7681E20F3FD0078069A /* Main.storyboard in Resources */,
 				AD4ED4F61E20E05600594B58 /* LaunchScreen.storyboard in Resources */,
 				AD4ED4F31E20E05600594B58 /* Assets.xcassets in Resources */,
-				AD4ED4F11E20E05600594B58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +315,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8290189D2F0327491C77F059 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Material Control/Pods-Material Control-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0CB0B942EFBCE47F9E897DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E120AC7E3D9B1AF4A155E7CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Material Control/Pods-Material Control-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD4ED4DF1E20E05600594B58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF1C7661E20F3520078069A /* thirdViewController.m in Sources */,
 				AD4ED4EE1E20E05600594B58 /* ViewController.m in Sources */,
 				AD4ED4EB1E20E05600594B58 /* AppDelegate.m in Sources */,
+				ADF1C7601E20EE030078069A /* EmptySegue.m in Sources */,
 				AD4ED4E81E20E05600594B58 /* main.m in Sources */,
+				ADF1C7631E20F2DA0078069A /* secViewController.m in Sources */,
+				ADF1C75D1E20EDD20078069A /* ContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +410,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD4ED4EF1E20E05600594B58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD4ED4F01E20E05600594B58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD4ED4F41E20E05600594B58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,6 +513,7 @@
 		};
 		AD4ED5111E20E05600594B58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA08F7413002426582E601CA /* Pods-Material Control.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Material Control/Info.plist";
@@ -433,6 +525,7 @@
 		};
 		AD4ED5121E20E05600594B58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5160909F1B4655281000E6 /* Pods-Material Control.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Material Control/Info.plist";
@@ -507,6 +600,7 @@
 				AD4ED5121E20E05600594B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD4ED5131E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material ControlTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +609,7 @@
 				AD4ED5151E20E05600594B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD4ED5161E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material ControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +618,7 @@
 				AD4ED5181E20E05600594B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
