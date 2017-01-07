@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD4ED4E81E20E05600594B58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED4E71E20E05600594B58 /* main.m */; };
+		AD4ED4EB1E20E05600594B58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED4EA1E20E05600594B58 /* AppDelegate.m */; };
+		AD4ED4EE1E20E05600594B58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED4ED1E20E05600594B58 /* ViewController.m */; };
+		AD4ED4F11E20E05600594B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4ED4EF1E20E05600594B58 /* Main.storyboard */; };
+		AD4ED4F31E20E05600594B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4ED4F21E20E05600594B58 /* Assets.xcassets */; };
+		AD4ED4F61E20E05600594B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4ED4F41E20E05600594B58 /* LaunchScreen.storyboard */; };
+		AD4ED5011E20E05600594B58 /* Material_ControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED5001E20E05600594B58 /* Material_ControlTests.m */; };
+		AD4ED50C1E20E05600594B58 /* Material_ControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED50B1E20E05600594B58 /* Material_ControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD4ED4FD1E20E05600594B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4ED4DB1E20E05600594B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4ED4E21E20E05600594B58;
+			remoteInfo = "Material Control";
+		};
+		AD4ED5081E20E05600594B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4ED4DB1E20E05600594B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4ED4E21E20E05600594B58;
+			remoteInfo = "Material Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD4ED4E31E20E05600594B58 /* Material Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Material Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4ED4E71E20E05600594B58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD4ED4E91E20E05600594B58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD4ED4EA1E20E05600594B58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD4ED4EC1E20E05600594B58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD4ED4ED1E20E05600594B58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD4ED4F01E20E05600594B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD4ED4F21E20E05600594B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4ED4F51E20E05600594B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD4ED4F71E20E05600594B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4ED4FC1E20E05600594B58 /* Material ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Material ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4ED5001E20E05600594B58 /* Material_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Material_ControlTests.m; sourceTree = "<group>"; };
+		AD4ED5021E20E05600594B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4ED5071E20E05600594B58 /* Material ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Material ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4ED50B1E20E05600594B58 /* Material_ControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Material_ControlUITests.m; sourceTree = "<group>"; };
+		AD4ED50D1E20E05600594B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD4ED4E01E20E05600594B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4ED4F91E20E05600594B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4ED5041E20E05600594B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD4ED4DA1E20E05600594B58 = {
+			isa = PBXGroup;
+			children = (
+				AD4ED4E51E20E05600594B58 /* Material Control */,
+				AD4ED4FF1E20E05600594B58 /* Material ControlTests */,
+				AD4ED50A1E20E05600594B58 /* Material ControlUITests */,
+				AD4ED4E41E20E05600594B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4ED4E41E20E05600594B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED4E31E20E05600594B58 /* Material Control.app */,
+				AD4ED4FC1E20E05600594B58 /* Material ControlTests.xctest */,
+				AD4ED5071E20E05600594B58 /* Material ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4ED4E51E20E05600594B58 /* Material Control */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED4E91E20E05600594B58 /* AppDelegate.h */,
+				AD4ED4EA1E20E05600594B58 /* AppDelegate.m */,
+				AD4ED4EC1E20E05600594B58 /* ViewController.h */,
+				AD4ED4ED1E20E05600594B58 /* ViewController.m */,
+				AD4ED4EF1E20E05600594B58 /* Main.storyboard */,
+				AD4ED4F21E20E05600594B58 /* Assets.xcassets */,
+				AD4ED4F41E20E05600594B58 /* LaunchScreen.storyboard */,
+				AD4ED4F71E20E05600594B58 /* Info.plist */,
+				AD4ED4E61E20E05600594B58 /* Supporting Files */,
+			);
+			path = "Material Control";
+			sourceTree = "<group>";
+		};
+		AD4ED4E61E20E05600594B58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED4E71E20E05600594B58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD4ED4FF1E20E05600594B58 /* Material ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED5001E20E05600594B58 /* Material_ControlTests.m */,
+				AD4ED5021E20E05600594B58 /* Info.plist */,
+			);
+			path = "Material ControlTests";
+			sourceTree = "<group>";
+		};
+		AD4ED50A1E20E05600594B58 /* Material ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED50B1E20E05600594B58 /* Material_ControlUITests.m */,
+				AD4ED50D1E20E05600594B58 /* Info.plist */,
+			);
+			path = "Material ControlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD4ED4E21E20E05600594B58 /* Material Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4ED5101E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material Control" */;
+			buildPhases = (
+				AD4ED4DF1E20E05600594B58 /* Sources */,
+				AD4ED4E01E20E05600594B58 /* Frameworks */,
+				AD4ED4E11E20E05600594B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Material Control";
+			productName = "Material Control";
+			productReference = AD4ED4E31E20E05600594B58 /* Material Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD4ED4FB1E20E05600594B58 /* Material ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4ED5131E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material ControlTests" */;
+			buildPhases = (
+				AD4ED4F81E20E05600594B58 /* Sources */,
+				AD4ED4F91E20E05600594B58 /* Frameworks */,
+				AD4ED4FA1E20E05600594B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4ED4FE1E20E05600594B58 /* PBXTargetDependency */,
+			);
+			name = "Material ControlTests";
+			productName = "Material ControlTests";
+			productReference = AD4ED4FC1E20E05600594B58 /* Material ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD4ED5061E20E05600594B58 /* Material ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4ED5161E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material ControlUITests" */;
+			buildPhases = (
+				AD4ED5031E20E05600594B58 /* Sources */,
+				AD4ED5041E20E05600594B58 /* Frameworks */,
+				AD4ED5051E20E05600594B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4ED5091E20E05600594B58 /* PBXTargetDependency */,
+			);
+			name = "Material ControlUITests";
+			productName = "Material ControlUITests";
+			productReference = AD4ED5071E20E05600594B58 /* Material ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4ED4DB1E20E05600594B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tecksky Technologies";
+				TargetAttributes = {
+					AD4ED4E21E20E05600594B58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AD4ED4FB1E20E05600594B58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD4ED4E21E20E05600594B58;
+					};
+					AD4ED5061E20E05600594B58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD4ED4E21E20E05600594B58;
+					};
+				};
+			};
+			buildConfigurationList = AD4ED4DE1E20E05600594B58 /* Build configuration list for PBXProject "Material Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4ED4DA1E20E05600594B58;
+			productRefGroup = AD4ED4E41E20E05600594B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4ED4E21E20E05600594B58 /* Material Control */,
+				AD4ED4FB1E20E05600594B58 /* Material ControlTests */,
+				AD4ED5061E20E05600594B58 /* Material ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD4ED4E11E20E05600594B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4ED4F61E20E05600594B58 /* LaunchScreen.storyboard in Resources */,
+				AD4ED4F31E20E05600594B58 /* Assets.xcassets in Resources */,
+				AD4ED4F11E20E05600594B58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4ED4FA1E20E05600594B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4ED5051E20E05600594B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD4ED4DF1E20E05600594B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4ED4EE1E20E05600594B58 /* ViewController.m in Sources */,
+				AD4ED4EB1E20E05600594B58 /* AppDelegate.m in Sources */,
+				AD4ED4E81E20E05600594B58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4ED4F81E20E05600594B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4ED5011E20E05600594B58 /* Material_ControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4ED5031E20E05600594B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4ED50C1E20E05600594B58 /* Material_ControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD4ED4FE1E20E05600594B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4ED4E21E20E05600594B58 /* Material Control */;
+			targetProxy = AD4ED4FD1E20E05600594B58 /* PBXContainerItemProxy */;
+		};
+		AD4ED5091E20E05600594B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4ED4E21E20E05600594B58 /* Material Control */;
+			targetProxy = AD4ED5081E20E05600594B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD4ED4EF1E20E05600594B58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4ED4F01E20E05600594B58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD4ED4F41E20E05600594B58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4ED4F51E20E05600594B58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD4ED50E1E20E05600594B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4ED50F1E20E05600594B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD4ED5111E20E05600594B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Material Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Material-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD4ED5121E20E05600594B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Material Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Material-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD4ED5141E20E05600594B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Material ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Material-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Material Control.app/Material Control";
+			};
+			name = Debug;
+		};
+		AD4ED5151E20E05600594B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Material ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Material-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Material Control.app/Material Control";
+			};
+			name = Release;
+		};
+		AD4ED5171E20E05600594B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Material ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Material-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Material Control";
+			};
+			name = Debug;
+		};
+		AD4ED5181E20E05600594B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Material ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Material-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Material Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD4ED4DE1E20E05600594B58 /* Build configuration list for PBXProject "Material Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4ED50E1E20E05600594B58 /* Debug */,
+				AD4ED50F1E20E05600594B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4ED5101E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4ED5111E20E05600594B58 /* Debug */,
+				AD4ED5121E20E05600594B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD4ED5131E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4ED5141E20E05600594B58 /* Debug */,
+				AD4ED5151E20E05600594B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD4ED5161E20E05600594B58 /* Build configuration list for PBXNativeTarget "Material ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4ED5171E20E05600594B58 /* Debug */,
+				AD4ED5181E20E05600594B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4ED4DB1E20E05600594B58 /* Project object */;
+}
